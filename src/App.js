@@ -1,10 +1,14 @@
 import React from 'react';
-import './App.css';
+import './App.module.css';
+import {Cards, Chart, CountryDropDown} from './components/';
+import styles from './App.module.css'
 
 function App() {
   return (
-    <div>
-      <h1>App</h1>
+    <div className={styles.container}>
+      <Cards/>
+      <CountryDropDown/>
+      <Chart/>
     </div>
   );
 }
