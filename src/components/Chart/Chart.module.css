@@ -4,3 +4,9 @@
     width: 85%;
     padding-top: 3vh;
 }
+
+@media (max-width: 770px) {
+    .container{
+        width: 100%
+    }
+}
